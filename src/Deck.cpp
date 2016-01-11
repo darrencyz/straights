@@ -20,6 +20,10 @@ Card** Deck::getCards() {
     return cards_;
 }
 
+void Deck::setSeedVal(int seedVal) {
+    seed_ = seedVal;
+}
+
 // Prepare a deck by creating 52 cards
 // 13 ranks per suit & 4 suit
 void Deck::prepareDeck() {

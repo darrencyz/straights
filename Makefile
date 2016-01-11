@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -Wall -O -g ` pkg-config gtkmm-2.4 --cflags --libs`
+CXXFLAGS = -Wall -O -g ` pkg-config gtkmm-2.4 --cflags --libs` -std=c++0x
 OBJ_DIR = src
 _OBJECTS = Subject.o Model.o Controller.o View.o CardGui.o Main.o Gameboards.o Deck.o Human.o Computer.o Player.o Card.o
 OBJECTS = ${patsubst %,${OBJ_DIR}/%,${_OBJECTS}}

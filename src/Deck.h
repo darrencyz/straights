@@ -16,7 +16,7 @@ public:
     Card** getCards();
     
     // Mutator
-    void setSeedval(int);
+    void setSeedVal(int);
 
     // Member Functions
     void clearDeck();

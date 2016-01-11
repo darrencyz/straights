@@ -26,7 +26,7 @@ public:
 
 private:
     // Private Member Function
-    std::string convertRank(int);
+    std::string convertRank(int) const;
     
     // Data Members
     Card* spades_[SUIT_COUNT];
